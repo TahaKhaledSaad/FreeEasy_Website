@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FreEasy Website For Taha Khaled</title>
+
+  <!-- FontAwsome -->
+  <link rel="stylesheet" href="./css/all.css">
+
+  <!-- Custom CSS File -->
+  <link rel="stylesheet" href="./css/style.css">
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="./css/bootstrap/bootstrap.min.css">
+
+</head>
+
+<body>
+
+  <!-- Header-Navbar  -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark  pt-sm-1" id="home">
+
+    <!-- Navbar logo and Website title -->
+    <a class="navbar-brand" href="#">
+      <img src="./images/blue-logo-roblox-5.webp" width="40" class="" alt="">
+    </a>
+    <a class="navbar-brand text-light px-2" href="#">Fre<span class="h3 font-weight-bold text-info">E</span>asy</a>
+
+    <!-- Navbar-Toggler -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navigations and header Buttons -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item mx-2 active">
+          <a class="nav-link" href="#home"><i class="fa fa-home text-info"></i> Home <span
+              class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item mx-2">
+          <a class="nav-link text-white" href="#about"><i class="fas fa-info-circle text-info"></i> About</a>
+        </li>
+        <li class="nav-item mx-2">
+          <a class="nav-link text-white" href="#contact"><i class="fas fa-comment-dots text-info"></i> Contact</a>
+        </li>
+        <li class="nav-item mx-2 dropdown ">
+          <a class="nav-link dropdown-toggle text-white" href="#categories" id="navbarDropdown" role="button"
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fa fa-bars text-white text-info"></i> Categories
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#Eproducts"><i class="fas fa-stream text-info"></i> Mobile Phones</a>
+            <a class="dropdown-item" href="#Eproducts"><i class="fas fa-stream text-info"></i> Electronics</a>
+            <a class="dropdown-item" href="#ToyProducts"><i class="fas fa-stream text-info"></i> Toys & Games</a>
+            <a class="dropdown-item" href="#products"><i class="fas fa-stream text-info"></i> Fation</a>
+            <a class="dropdown-item" href="#products"><i class="fas fa-stream text-info"></i> PC & Accessories</a>
+            <a class="dropdown-item" href="#products"><i class="fas fa-stream text-info"></i> Health & Personal Care</a>
+            <a class="dropdown-item" href="#products"><i class="fas fa-stream text-info"></i> Sports</a>
+            <a class="dropdown-item" href="#SuperMarketProducts"><i class="fas fa-stream text-info"></i> Supermarket</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item bg-info text-white rounded" href="#home">Go to Another Departments !!</a>
+          </div>
+        </li>
+
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2 " type="search" placeholder="Search" aria-label="Search">
+        <a class="btn btn-info" href="#">Search</a>
+        <button class="btn btn-info my-2 mx-2" type="submit">Log in</button>
+      </form>
+    </div><!-- Navigations and header Buttons -->
+
+  </nav> <!-- Navbar -->
+
+  <!-- ///////////////////////////////////////////////////////////////////////////////////// -->
+
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" >
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner" id="about">
+      <!-- carousel-item -->
+      <div class="carousel-item active ">
+        <img class="d-block w-100 " src="./images/fullwidthbg1.jpg" alt="First slide" height="400">
+        <div class="carousel-caption rounded opacity-3">
+          <h5 class="">Electronics Offers</h5>
+          <p>Computer & accessories | Up to 15% off</p>
+          <button class="btn btn-info text-white">Get Offer</button>
+        </div>
+      </div>
+      <!-- carousel-item -->
+      <div class="carousel-item">
+        <img class="d-block w-100" src="./images/fullwidthbg2.jpg" alt="Third slide" height="400">
+        <div class="carousel-caption opacity-3 rounded">
+          <h5 class="">Computer Needs Offers</h5>
+          <p>Last chance deals | Up to 70% off</p>
+          <button class="btn btn-info text-white">More Details</button>
+        </div>
+      </div>
+      <!-- carousel-item -->
+      <div class="carousel-item">
+        <img class="d-block w-100" src="./images/fullwidthbg3.jpg" alt="Third slide" height="400">
+        <div class="carousel-caption opacity-3 rounded">
+          <h5 class="">MAC && Iphone Offers</h5>
+          <p>Kitchen essentials | Up to 15% off</p>
+          <button class="btn btn-info text-white">Get Offer</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Adding in the previous and next controls -->
+    <!-- Previous Control -->
+    <a class="carousel-control-prev " href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only   bg-dark text-dark">Previous</span>
+    </a>
+    <!-- Next Control -->
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only  bg-dark text-dark">Next</span>
+    </a>
+  </div> <!-- carousel -->
+
+  <!-- ///////////////////////////////////////////////////////////////////////////////////// -->
+
+
+  <div class="container p-4 bg-dark rounded text-light custom-shadow my-4" >
+    <div class="">
+      <p class="h3 ">Welcome in Fre<span class="h2 font-weight-bold text-info">E</span>asy Website</p>
+      <p class="font-weight-bold text-secondary"><span class="text-info h5">Dear,</span> Your Dreams are achieved
+        here.
+      </p>
+      <p>All the products you need you will find it here -God willing- just trust us.</p>
+      <button class="btn btn-info ">Learn More</button>
+    </div>
+  </div>
+
+
+  <!-- ///////////////////////////////////////////////////////////////////////////////////// -->
+
+  <div class="container">
+    <!-- pannel-group -->
+    <div class="panel-group" id="accordion">
+
+      <!-- item -->
+      <div class="panel panel-default my-4 border-top rounded border-info">
+        <div class="panel-heading p-2 shadow my-3 custom-shadow2 hint-cont">
+          <h5 class="panel-title text-center " data-toggle="tooltip" data-placement="top" title="Click Me !!">
+            <span  id="Eproducts">
+              Electronics</span>
+              <span class="hint" data-toggle="collapse" data-parent="#accordion" href="#collapse1">Open</span>
+          </h5>
+          
+        </div>
+        <div id="collapse1" class="panel-collapse collapse container in">
+          <div class="panel-body border rounded p-3 font-weight-bold">
+            <ul class="list-group">
+              <li class="list-group-item list-group-item-primary">Headphones</li>
+              <li class="list-group-item list-group-item-primary">Computers & PC</li>
+              <li class="list-group-item list-group-item-primary">Phones & Mobiles</li>
+              <li class="list-group-item list-group-item-primary">Screens & Keyboards</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- item -->
+      <div class="panel panel-default my-4 border-top rounded border-info">
+        <div class="panel-heading p-2 shadow my-3 custom-shadow2 hint-cont2">
+          <h5 class="panel-title text-center" data-toggle="tooltip" data-placement="top" title="Click Me !!" id="ToyProducts">
+            <span >
+              Games & Toys</span>
+              <span class="hint2" data-toggle="collapse" data-parent="#accordion" href="#collapse2" >Open</span>
+          </h5>
+        </div>
+        <div id="collapse2" class="panel-collapse collapse container">
+          <div class="panel-body border rounded p-3 font-weight-bold">
+            <ul class="list-group">
+              <li class="list-group-item list-group-item-info">Remote Cars</li>
+              <li class="list-group-item list-group-item-info">Modern Toys</li>
+              <li class="list-group-item list-group-item-info">Screens & Keys</li>
+              <li class="list-group-item list-group-item-info">Air Plan Remote</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- item -->
+      <div class="panel panel-default my-4 border-top rounded border-info">
+        <div class="panel-heading p-2 shadow my-3 custom-shadow2 hint-cont3">
+          <h5 class="panel-title text-center" data-toggle="tooltip" data-placement="top" title="Click Me !!">
+            <span id="SuperMarketProducts">
+              Home & Kitchen</>
+              <span class="hint3" data-toggle="collapse" data-parent="#accordion" href="#collapse3">Open</span>
+          </h5>
+        </div>
+        <div id="collapse3" class="panel-collapse collapse container">
+          <div class="panel-body border rounded p-3 font-weight-bold">
+            <ul class="list-group">
+              <li class="list-group-item list-group-item-success">Bedding</li>
+              <li class="list-group-item list-group-item-success">Furniture</li>
+              <li class="list-group-item list-group-item-success">Lighting & Ceiling Fans</li>
+              <li class="list-group-item list-group-item-success">Wall Art</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div> <!-- pannel-group -->
+  </div>
+
+  <!-- ///////////////////////////////////////////////////////////////////////////////////// -->
+
+  <!-- item -->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-12">
+        <h3 class="bg-info p-3 text-center mb-0 rounded-top mt-3 text-white">
+          Laptobs Offers
+        </h3>
+        <div class="bg-dark p-3 text-light rounded-bottom">
+          <h5>Try to coby the code to get the Offer <a href="">here</a></h5>
+          <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="bottom"
+            title="copy a code">
+            Copy
+          </button>
+          <p class="text-info pt-4" style="font-family: 'Edu QLD Beginner', cursive; font-size: 18px;"><del>Code</del>
+            <strong>A55fg5</strong>
+          </p>
+        </div>
+      </div>
+
+      <!-- item -->
+      <div class="col-md-6 col-12">
+        <h3 class="bg-info p-3 text-center mb-0 rounded-top mt-3 text-white">
+          Phones Offers
+        </h3>
+        <div class="bg-dark p-3 text-light rounded-bottom">
+          <h5>Try to coby the code to get the Offer <a href="">here</a></h5>
+          <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="bottom"
+            title="copy a code">
+            Copy
+          </button>
+          <p class="text-info pt-4" style="font-family: 'Edu QLD Beginner', cursive; font-size: 18px;"><del>Code</del>
+            <strong>E4ek44r</strong>
+          </p>
+        </div>
+      </div>
+    </div><!-- row -->
+
+    <div class="row">
+      <!-- item -->
+      <div class="col-md-6 col-12">
+        <h3 class="bg-info p-3 text-center mb-0 rounded-top mt-3 text-white">
+          Games Offers
+        </h3>
+        <div class="bg-dark p-3 text-light rounded-bottom">
+          <h5>Try to coby the code to get the Offer <a href="">here</a></h5>
+          <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="bottom"
+            title="copy a code">
+            Copy
+          </button>
+          <p class="text-info pt-4" style="font-family: 'Edu QLD Beginner', cursive; font-size: 18px;"><del>Code</del>
+            <strong>B25az8</strong>
+          </p>
+        </div>
+      </div>
+      <!-- item -->
+      <div class="col-md-6 col-12">
+        <h3 class="bg-info p-3 text-center mb-0 rounded-top mt-3 text-white">
+          Computers Offers
+        </h3>
+        <div class="bg-dark p-3 text-light rounded-bottom">
+          <h5>Try to coby the code to get the Offer <a href="">here</a></h5>
+          <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="bottom"
+            title="copy a code">
+            Copy
+          </button>
+          <p class="text-info pt-4" style="font-family: 'Edu QLD Beginner', cursive; font-size: 18px;"><del>Code</del>
+            <strong>M56uzU3</strong>
+          </p>
+        </div>
+      </div>
+    </div> <!-- row -->
+
+  </div> <!-- container-fluid -->
+
+  <!-- ///////////////////////////////////////////////////////////////////////////////////// -->
+
+  <div class="fixed-background mt-5"></div>
+
+  <!-- ///////////////////////////////////////////////////////////////////////////////////// -->
+
+  <span class=" text-center mx-auto text-muted">
+    <h2 class="text-weight-bold mt-1" style="font-weight: 700;  font-size: 50px;">
+      <span class="text-info">O</span>ur <span class="text-info">P</span>roducts
+    </h2>
+  </span>
+
+  <div class="container-fluid">
+    <div class="container">
+      <div class="row d-flex justify-content-around">
+
+        <!-- item-1  -->
+        <div class="card col-lg-3 col-md-4 col-sm-6 m-1 mt-5 shadow-lg pt-4 custom-shadow2" style="width: 22rem;">
+          <img class="card-img-top" src="./images/product1.webp" height="250px" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Lenovo Gaming 3</h5>
+            <p class="card-text">
+              Everyday Gaming Laptop - NVIDIA GeForce RTX 3050 - 120 Hz AMD Ryzen
+            <div class="text-warning">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class=""><sup>EGP</sup><span class="h4">390</span><sup>00 </sup> <small><del class="text-muted"> EGP
+                  400</del></small></div>
+            </p>
+            <a href="#" class="btn btn-info">Add to Cart</a>
+          </div>
+        </div>
+
+        <!-- item-3  -->
+        <div class="card col-lg-3 col-md-4 col-sm-6 m-1 mt-5 shadow-lg pt-4 custom-shadow2" style="width: 22rem;">
+          <img class="card-img-top" src="./images/product3.webp" height="250px" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Headphone Games 5</h5>
+            <p class="card-text">
+              Everyday Gaming Headphons - NVIDIA GeForce RTX 3050 - 120 Hz AMD Ryzen
+            <div class="text-warning">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class=""><sup>EGP</sup><span class="h4">356</span><sup>00 </sup> <small><del class="text-muted"> EGP
+                  400</del></small></div>
+            </p>
+            <a href="#" class="btn btn-info">Add to Cart</a>
+          </div>
+        </div>
+
+        <!-- item-8  -->
+        <div class="card col-lg-3 col-md-4 col-sm-6 m-1 mt-5 shadow-lg pt-4 custom-shadow2" style="width: 22rem;">
+          <img class="card-img-top" src="./images/product8.webp" height="250px" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Kindle Oasis</h5>
+            <p class="card-text">
+              Kindle Oasis – With 7” display and page turn buttons - Ad-Supported
+            <div class="text-warning">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class=""><sup>EGP</sup><span class="h4">199</span><sup>00 </sup> <small><del class="text-muted"> EGP
+                  400</del></small></div>
+            </p>
+            <a href="#" class="btn btn-info">Add to Cart</a>
+          </div>
+        </div>
+
+        <!-- item-9  -->
+        <div class="card col-lg-3 col-md-4 col-sm-6 m-1 mt-5 shadow-lg pt-4 custom-shadow2" style="width: 22rem;">
+          <img class="card-img-top" src="./images/product9.webp" height="250px" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">OPPO Smart Watch</h5>
+            <p class="card-text">
+              Smart Watch, KALINCO Fitness Tracker with Heart Rate Monitor
+            <div class="text-warning">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class=""><sup>EGP</sup><span class="h4">540</span><sup>00 </sup> <small><del class="text-muted"> EGP
+                  400</del></small></div>
+            </p>
+            <a href="#" class="btn btn-info">Add to Cart</a>
+          </div>
+        </div>
+
+        <!-- item-10  -->
+        <div class="card col-lg-3 col-md-4 col-sm-6 m-1 mt-5 shadow-lg pt-4 custom-shadow2" id="products" style="width: 22rem;">
+          <img class="card-img-top" src="./images/product10.jpg" height="250px" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Kindle MAC</h5>
+            <p class="card-text">
+              Kindle Oasis – With 7” display and page turn buttons - Ad-Supported
+            <div class="text-warning">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class=""><sup>EGP</sup><span class="h4">200</span><sup>00 </sup> <small><del class="text-muted"> EGP
+                  400</del></small></div>
+            </p>
+            <a href="#" class="btn btn-info">Add to Cart</a>
+          </div>
+        </div>
+
+        <!-- item-11  -->
+        <div class="card col-lg-3 col-md-4 col-sm-6 m-1 mt-5 shadow-lg pt-4 custom-shadow2" style="width: 22rem;">
+          <img class="card-img-top" src="./images/product11.webp" height="250px" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Kindle MAC</h5>
+            <p class="card-text">
+              Kindle Oasis – With 7” display and page turn buttons - Ad-Supported
+            <div class="text-warning">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class=""><sup>EGP</sup><span class="h4">320</span><sup>00 </sup> <small><del class="text-muted"> EGP
+                  400</del></small></div>
+            </p>
+            <a href="#" class="btn btn-info">Add to Cart</a>
+          </div>
+        </div>
+
+
+      </div> <!-- row -->
+    </div> <!-- container -->
+  </div> <!-- container-fluid -->
+
+
+  <!-- ///////////////////////////////////////////////////////////////////////////////////// -->
+
+  <div class="fixed-background2 mt-5"></div>
+
+  <!-- ///////////////////////////////////////////////////////////////////////////////////// -->
+
+  <span class=" text-center mx-auto text-muted mx-2">
+    <h2 class="text-weight-bold" style="font-weight: 700;  font-size: 50px;">
+      <span class="text-info">M</span>anagers
+    </h2>
+  </span>
+
+  <div class="container my-4">
+    <div class="row justify-content-around">
+
+      <!-- card1  -->
+      <div class="card border-none px-2 my-2 custom-shadow2" style="width: 20rem;">
+        <h4 class="text-center"><span class="text-info">Eng.</span> Taha Khaled</h4>
+        <img class="card-img-top rounded" src="./images/tahaImage1.jpeg" alt="tahaKhSaad">
+        <a href="" class="text-info text-center font-weight-bold">Call me</a>
+      </div>
+      <!-- card2  -->
+      <div class="card border-none px-2 my-2 custom-shadow2" style="width: 20rem;">
+        <h4 class="text-center"><span class="text-info">Eng.</span> Ali Sameh</h4>
+        <img class="card-img-top rounded" src="./images/tahaImage2.jpg" height="355" alt="tahaKhSaad">
+        <a href="" class="text-info text-center font-weight-bold">Call me</a>
+      </div>
+      <!-- card3  -->
+      <div class="card border-none px-2 my-2 custom-shadow2" style="width: 20rem;">
+        <h4 class="text-center"><span class="text-info">Eng.</span> Yousef Omran</h4>
+        <img class="card-img-top rounded" src="./images/tahaImage3.jpg" height="355" alt="tahaKhSaad">
+        <a href="" class="text-info text-center font-weight-bold">Call me</a>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ///////////////////////////////////////////////////////////////////////////////////// -->
+
+  <div class=" p-4 bg-dark" id="contact">
+    <div class="container p-4 bg-info rounded shadow-lg">
+      <!-- Section: Social media -->
+      <div class="mb-4 mx-auto text-center">
+        <!-- Facebook -->
+        <a class="btn btn-dark btn-floating m-1" href="https://www.facebook.com/taha.khaled.315213" role="button"><i class="fab fa-facebook-f"></i></a>
+
+        <!-- Google -->
+        <a class="btn btn-dark btn-floating m-1" href="mailto:tahakhsaad55@gmail.com?subject=Ask Eng. Taha Khaled" role="button"><i class="fab fa-google"></i></a>
+
+        <!-- Linkedin -->
+        <a class="btn btn-dark btn-floating m-1" href="https://www.linkedin.com/in/taha-khaled-81a81a26a/" role="button"><i class="fab fa-linkedin-in"></i></a>
+
+        <!-- Github -->
+        <a class="btn btn-dark btn-floating m-1" href="https://github.com/TahaKhaledSaad" role="button"><i class="fab fa-github"></i></a>
+      </div>
+      <!-- Section: Social media -->
+
+      <!-- Section: Form -->
+      <section class="">
+        <form action="">
+          <!--Grid row-->
+          <div class="row d-flex justify-content-center">
+            <!--Grid column-->
+            <div class="col-auto">
+              <p class="pt-2">
+                <strong>Sign up for our <b>FreEasy</b></strong>
+              </p>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-md-5 col-12">
+              <!-- Email input -->
+              <div class="form-outline form-white mb-4">
+                <input type="email" id="form5Example24" class="form-control" placeholder="Email address">
+                <button class="btn btn-dark my-2">Log in</button>
+              </div>
+
+        </form>
+      </section>
+
+      <section class="text-center">
+        <!--Grid row-->
+        <div class="row justify-content-center">
+          
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-dark"> <i class="fas fa-phone-square-alt" class="btn btn-dark btn-floating m-1"></i> Contact Me</h5>
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white">Mobile Phone</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Online Chat</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-dark"> <i class="fas fa-star" class="btn btn-dark btn-floating m-1"></i> Rate Me</h5>
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white">On Google</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">On Linkedin</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-dark"> <i class="fas fa-user-plus" class="btn btn-dark btn-floating m-1"></i> Join us</h5>
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white">Youtube</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Facebook</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="footer text-muted text-center bg-dark h6 mt-3">Copyright © 2023 Taha Khaled, <span class="text-info">FreEasy</span> Website. All rights</div>
+  </div>
+
+  <!-- ///////////////////////////////////////////////////////////////////////////////////// -->
+
+  <!-- Bootstrap JS -->
+  <script type="text/javascript" src="./js/bootstrap/bootstrap.min.js"></script>
+
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <!-- Bootstrap JS -->
+  <script src="./js/bootstrap/bootstrap.min.js"></script>
+
+  <!-- Popper JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+  <script src="./js/script.js"></script>
+</body>
+
+
+</html>
